@@ -1,1 +1,14 @@
+a) Liste e descreva o que são as 4 etapas do processo de compilação.
+R: • Preprocessing: Essa é a primeira etapa para um compilador, onde o código fonte é incluído, analisado por erros de sintaxe, e macros ou definições são substituídos e processados. Essa etapa ocorre muito em linguagens como C e C++.
+• Compilation Proper: Nessa etapa, o código fonte é transformado em um código assembly, um código muito próximo do de máquina, ou código binário. Contudo, ainda contém referências a arquivos externos, então não pode ser utilizado.
+• Assembly: Com o código assembly pronto, ele passa por um conversor, chamado assembler, para se tornar um código binário feito exclusivamente para um único sistema.
+• Linking: Essa é a última etapa do compilador, onde as bibliotecas, já compiladas, são adicionadas em nosso código binário, permitindo a criação de um arquivo binário executável.
 
+
+b)O compiladorgcc  permite  fornecer  parâmetros  extras,  que modificamdesde  a  emissão  de erros atéo binário final, o otimizando para determinados comportamentos. Explique a função dos seguintes parâmetros:
+i) -static: Link para bibliotecas estáticas.
+ii) -g: Incluir informações de depuração padrão no binário
+iii) -pedantic: Emite todos os avisos exigidos pelo padrão ANSI/ISO C Standart
+iv) -Wall: Emite todos os avisos geralmente úteis que o gcc pode fornecer. Avisos específicos também podem ser sinalizados usando -W{warning}.
+v) -Os: A opção bare -O diz ao gcc para reduzir o tamanho do código e o tempo de execução
+vi) -O3: As opções -O3 incluem todas as otimizações de O2, desenrolamento de loop e outros recursos específicos do processador.
