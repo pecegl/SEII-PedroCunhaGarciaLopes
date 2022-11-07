@@ -1,0 +1,9 @@
+1) Qual o limite de bytes a serem enviados por pacotes TCP e UDP?
+R: No protocólo TCP o limite é de 65435 bytes e no protocólo UDP o limite é de 65507 bytes.
+
+2) Como um arquivo grande pode ser transmitido via internet?
+R: É possível transmitir um arquivo grande via internet por meio de um protocólo TCP ou UDP.
+
+3) Qual a diferença entre as implementações TCP e UDP para esse problema?
+R: A transmissão por protocólo TCP garante uma maior confiabilidade de informações, porém o tempo de transmissão é lento. 
+   Já através do protocolo UDP, a trasmissão é mais rápida, contudo a confiabiliade de dados é baixa.
